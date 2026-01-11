@@ -41,8 +41,10 @@ Official CTF team of Hajee Mohammad Danesh Science & Technology University || Cy
 {% endcolumn %}
 {% endcolumns %}
 
-<h2 align="center">Join a community of over 3,000 developers</h2>
 
-<p align="center">Join our Discord community or create your first PR in just a few steps.</p>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-discord">:discord:</i></h4></td><td><strong>Discord community</strong></td><td>Join our Discord community to post questions, get help, and share resources with over 3,000 like-minded developers.</td><td><a href="https://www.gitbook.com/" class="button secondary">Join Discord</a></td><td></td></tr><tr><td><h4><i class="fa-github">:github:</i></h4></td><td><strong>GitHub</strong></td><td>Our product is 100% open source and built by developers just like you. Head to our GitHub repository to learn how to submit your first PR.</td><td><a href="https://www.gitbook.com/" class="button secondary">Submit a PR</a></td><td></td></tr></tbody></table>
+### Ready for your next challenge? <a href="#ready-for-your-next-challenge" id="ready-for-your-next-challenge"></a>
+
+Jump straight into the latest topic releases, or [check out our full topics list](https://portswigger.net/web-security/all-topics).
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><h4><i class="fa-syringe">:syringe:</i></h4></td><td><strong>SQL Injection Training Labs</strong></td><td>SQLi is a vulnerability that consists of an attacker interfering with the SQL queries that an application makes to a database.</td><td><a href="https://www.gitbook.com/" class="button secondary">Explore SQLi</a></td><td><a href="https://www.hstucyberknights.top/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F63l4yud0%2Fproduction%2F5bdc7710d46d64ebf3dda4e117e1679a9a91df15-1344x768.jpg&#x26;w=828&#x26;q=75">https://www.hstucyberknights.top/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F63l4yud0%2Fproduction%2F5bdc7710d46d64ebf3dda4e117e1679a9a91df15-1344x768.jpg&#x26;w=828&#x26;q=75</a></td></tr></tbody></table>
