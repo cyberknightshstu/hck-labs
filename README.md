@@ -25,49 +25,19 @@ metaLinks:
 
 <p align="center">Welcome to <strong>HSTU CyberKnight</strong>'s Learning Hub</p>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>No code</strong></td><td>Get started with the developer platform in 5 minutes.</td><td><a href="https://template.gitbook.com/space-product-docs">https://template.gitbook.com/space-product-docs</a></td><td><a href=".gitbook/assets/no-code.jpg">no-code.jpg</a></td></tr><tr><td><h4><i class="fa-server">:server:</i></h4></td><td><strong>Hosted</strong></td><td>Learn more about hosting the developer platform.</td><td><a href="https://template.gitbook.com/space-product-docs">https://template.gitbook.com/space-product-docs</a></td><td><a href=".gitbook/assets/hosted.jpg">hosted.jpg</a></td></tr><tr><td><h4><i class="fa-terminal">:terminal:</i></h4></td><td><strong>API reference</strong></td><td>Browse, test, and implement APIs.</td><td><a href="https://template.gitbook.com/space-api-reference">https://template.gitbook.com/space-api-reference</a></td><td><a href=".gitbook/assets/api-reference.jpg">api-reference.jpg</a></td></tr></tbody></table>
+<p align="center"></p>
 
 {% columns %}
 {% column %}
-### Get started in 5 minutes
-
-Setting up your first API call should be the easiest part of getting started. With clear endpoints, copy-paste-ready examples, and quick authentication, you’ll be up and running in minutes—not hours.
-
-No guesswork, no complexity—just your first successful call, fast.
-
-<a href="https://template.gitbook.com/space-product-docs" class="button primary" data-icon="rocket-launch">Get started</a> <a href="https://template.gitbook.com/space-api-reference" class="button secondary" data-icon="terminal">API reference</a>
+<figure><img src=".gitbook/assets/photo_2026-01-12_05-34-26.jpg" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-{% code title="index.js" overflow="wrap" %}
-```javascript
-// Import the SDK
-import ExampleAPI from "example-api";
+### Learn more about the platform
 
-// Initialize the client
-const client = new ExampleAPI({ apiKey: "YOUR_API_KEY" });
+Official CTF team of Hajee Mohammad Danesh Science & Technology University || Cybersecurity Researcher, Analyst and Practitioner.
 
-// Send your first message
-const response = await client.messages.send({
-  message: "Hello, world!"
-});
-
-```
-{% endcode %}
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column %}
-### Learn more about the developer platform
-
-Read guides, watch tutorials, and learn more about working with the developer platform and integrating it with your own stack.
-
-<a href="https://template.gitbook.com/space-help-center" class="button primary" data-icon="book-open">Guides</a> <a href="https://template.gitbook.com/space-product-docs" class="button secondary" data-icon="book">Documentation</a>
+<a href="https://www.hstucyberknights.top/" class="button primary" data-icon="book-open">Homepage</a> <a href="https://www.hstucyberknights.top/contact" class="button secondary" data-icon="book">Contact Us</a>
 {% endcolumn %}
 {% endcolumns %}
 
