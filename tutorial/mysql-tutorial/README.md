@@ -1,5 +1,4 @@
 ---
-description: Learn more about documenting APIs in GitBook.
 icon: terminal
 layout:
   width: default
@@ -21,6 +20,4 @@ metaLinks:
 ---
 
 # About MySQL
-
-{% embed url="https://sqli.lab.hstucyberknights.top" %}
 
