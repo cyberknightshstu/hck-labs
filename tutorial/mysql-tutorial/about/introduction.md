@@ -106,21 +106,21 @@ In the early days, database applications were built directly on top of file syst
 * All the data is stored in various tables.
 * Example of tabular data in the relational model
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;A Sample Relational Database
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;Levels of Abstraction
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### View of Data
 
 An architecture for a database system
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;Instances and Schemas
 
@@ -137,6 +137,34 @@ An architecture for a database system
 * Physical Data Independence – the ability to modify the physical schema without changing the logical schema
   * Applications depend on the logical schema
   * In general, the interfaces between the various levels and components should be well defined so that changes in some parts do not seriously influence others.
+
+### Data Definition Language (DDL)
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Data Manipulation Language (DML)
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### SQL Query Language
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Database Access from Application Program
+
+* Non-procedural query languages such as SQL are not as powerful as a universal Turing machine.
+* SQL does not support actions such as input from users, output to displays, or communication over the network.
+* Such computations and actions must be written in a host language, such as C/C++, Java or Python, with embedded SQL queries that access the data in the database.
+* Application programs -- are programs that are used to interact with the database in this fashion.
+
+### &#x20;Database Design
+
+The process of designing the general structure of the database:
+
+Logical Design – Deciding on the database schema. Database design requires that we find a “good” collection of relation schemas.\
+Business decision – What attributes should we record in the database?\
+Computer Science decision – What relation schemas should we have and how should the attributes be distributed among the various relation schemas?\
+Physical Design – Deciding on the physical layout of the database
 
 ### Centralized databases
 
