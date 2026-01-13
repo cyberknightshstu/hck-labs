@@ -1,0 +1,170 @@
+# Introduction
+
+#### Outline
+
+* [ ] Database-System Applications
+* [ ] Purpose of Database Systems
+* [ ] View of Data
+* [ ] Database Languages
+* [ ] Database Design
+* [ ] Database Engine
+* [ ] Database Architecture
+* [ ] Database Users and Administrators
+* [ ] History of Database Systems
+
+### &#x20;Database Systems
+
+* DBMS contains information about a particular enterprise
+  * Collection of interrelated data
+  * Set of programs to access the data
+  * An environment that is both convenient and efficient to use
+* Database systems are used to manage collections of data that are:
+  * Highly valuable
+  * Relatively large
+  * Accessed by multiple users and applications, often at the same time.
+* A modern database system is a complex software system whose task is to manage a large, complex collection of data.
+* Databases touch all aspects of our lives
+
+### &#x20;Database Applications Examples
+
+* Enterprise Information
+  * Sales: customers, products, purchases
+  * Accounting: payments, receipts, assets
+  * Human Resources: Information about employees, salaries, payroll taxes.
+* Manufacturing: management of production, inventory, orders, supply chain.
+* Banking and finance
+  * customer information, accounts, loans, and banking transactions.
+  * Credit card transactions
+  * Finance: sales and purchases of financial instruments (e.g., stocks and bonds; storing real-time market data
+* Universities: registration, grades
+* Airlines: reservations, schedules
+* Telecommunication: records of calls, texts, and data usage, generating monthly bills, maintaining balances on prepaid calling cards
+* Web-based services
+  * Online retailers: order tracking, customized recommendations
+  * Online advertisements
+* Document databases
+* Navigation systems: For maintaining the locations of varies places of interest along with the exact routes of roads, train systems, buses, etc.
+
+### Purpose of Database Systems
+
+In the early days, database applications were built directly on top of file systems, which leads to:
+
+* Data redundancy and inconsistency: data is stored in multiple file formats resulting induplication of information in different files
+* Difficulty in accessing data
+  * Need to write a new program to carry out each new task
+* Data isolation
+  * Multiple files and formats
+* Integrity problems
+  * Integrity constraints (e.g., account balance > 0) become “buried” in program code rather than being stated explicitly
+  * Hard to add new constraints or change existing ones
+
+### Centralized databases
+
+*
+  *
+    * One to a few cores, shared memory
+
+### Client-server,
+
+*
+  *
+    * One server machine executes work on behalf of multiple client machines.
+
+### Parallel databases
+
+*
+  *
+    * Many core shared memory
+    * Shared disk
+    * Shared nothing
+
+### Distributed databases
+
+*
+  *
+    * Geographical distribution
+    * Schema/data heterogeneity
+
+## ![](<../.gitbook/assets/Unknown image>)Database Architecture
+
+![](<../.gitbook/assets/Unknown image (1)>) ![](<../.gitbook/assets/Unknown image (2)>) ![](<../.gitbook/assets/Unknown image (3)>) ![](<../.gitbook/assets/Unknown image (4)>) ![](<../.gitbook/assets/Unknown image (5)>)
+
+**(Centralized/Shared-Memory)**
+
+Database applications are usually partitioned into two or three parts
+
+* Two-tier architecture -- the application resides at the client machine, where it invokes database system functionality at the server machine
+* Three-tier architecture -- the client machine acts as a front end and
+
+does not contain any direct database calls.
+
+*
+  * The client end communicates with an application server, usually through a forms interface.
+  * The application server in turn communicates with a database system to access data.
+
+![](<../.gitbook/assets/Unknown image (6)>) ![](<../.gitbook/assets/Unknown image (7)>)
+
+![](<../.gitbook/assets/Unknown image (8)>) ![](<../.gitbook/assets/Unknown image (9)>) ![](<../.gitbook/assets/Unknown image (10)>) ![](<../.gitbook/assets/Unknown image (11)>) ![](<../.gitbook/assets/Unknown image (12)>) ![](<../.gitbook/assets/Unknown image (13)>) ![](<../.gitbook/assets/Unknown image (14)>) ![](<../.gitbook/assets/Unknown image (15)>)
+
+![](<../.gitbook/assets/Unknown image (16)>) ![](<../.gitbook/assets/Unknown image (17)>)
+
+![](<../.gitbook/assets/Unknown image (18)>) ![](<../.gitbook/assets/Unknown image (19)>)
+
+![](<../.gitbook/assets/Unknown image (20)>)
+
+**Database System Concepts - 7th Edition**
+
+**1.32**
+
+**©Silberschatz, Korth and Sudarshan**
+
+A person who has central control over the system is called a **database**
+
+\*\*administrator (DBA).\*\*Functions of a DBA include:
+
+* Schema definition
+* Storage structure and access-method definition
+* Schema and physical-organization modification
+* Granting of authorization for data access
+* Routine maintenance
+* Periodically backing up the database
+* Ensuring that enough free disk space is available for normal operations, and upgrading disk space as required
+* Monitoring jobs running on the database
+* 1950s and early 1960s:
+  * Data processing using magnetic tapes for storage
+    * Tapes provided only sequential access
+  * Punched cards for input
+* Late 1960s and 1970s:
+  * Hard disks allowed direct access to data
+  * Network and hierarchical data models in widespread use
+  * Ted Codd defines the relational data model
+    * Would win the ACM Turing Award for this work
+    * IBM Research begins System R prototype
+    * UC Berkeley (Michael Stonebraker) begins Ingres prototype
+    * Oracle releases first commercial relational database
+  * High-performance (for the era) transaction processing
+* 1980s:
+  * Research relational prototypes evolve into commercial systems
+    * SQL becomes industrial standard
+  * Parallel and distributed database systems
+    * Wisconsin, IBM, Teradata
+  * Object-oriented database systems
+* 1990s:
+  * Large decision support and data-mining applications
+  * Large multi-terabyte data warehouses
+  * Emergence of Web commerce
+* 2000s
+  * Big data storage systems
+    * Google BigTable, Yahoo PNuts, Amazon,
+    * “NoSQL” systems.
+  * Big data analysis: beyond SQL
+    * Map reduce and friends
+* 2010s
+  * SQL reloaded
+    * SQL front end to Map Reduce systems
+    * Massively parallel database systems
+    * Multi-core main-memory databases
+
+![](<../.gitbook/assets/Unknown image>)
+
+**End of Chapter 1**
