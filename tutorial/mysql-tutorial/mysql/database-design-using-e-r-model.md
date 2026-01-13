@@ -92,11 +92,35 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
 ### Relationship Sets
 
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
+* Example: we define the relationship set advisor to denote the associations between students and the instructors who act as their advisors.
+* Pictorially, we draw a line between related entities.
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Representing Relationship Sets via ER Diagrams
+
+* Diamonds represent relationship sets.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+* An attribute can also be associated with a relationship set.
+* For instance, the advisor relationship set between entity sets instructor and student may have the attribute date which tracks when the student started being associated with the advisor
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+### Relationship Sets with Attributes
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+### Roles
+
+* Entity sets of a relationship need not be distinct&#x20;
+  * Each occurrence of an entity set plays a “role” in the relationship&#x20;
+* The labels “course\_id” and “prereq\_id” are called roles.
 
 
 
