@@ -106,7 +106,11 @@ In the early days, database applications were built directly on top of file syst
 * All the data is stored in various tables.
 * Example of tabular data in the relational model
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+### &#x20;A Sample Relational Database
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Centralized databases
 
