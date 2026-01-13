@@ -54,11 +54,63 @@ In the early days, database applications were built directly on top of file syst
   * Need to write a new program to carry out each new task
 * Data isolation
   * Multiple files and formats
-* Integrity problems
-  * Integrity constraints (e.g., account balance > 0) become “buried” in program code rather than being stated explicitly
-  * Hard to add new constraints or change existing ones
+*   Integrity problems
+
+    * Integrity constraints (e.g., account balance > 0) become “buried” in program code rather than being stated explicitly
+    * Hard to add new constraints or change existing ones
+
+
+
+    ```
+    Database systems offer solutions to all the above problems
+    ```
+
+### University Database Example
+
+* In this text we will be using a university database to illustrate all the concepts
+* Data consists of information about:
+  * Students
+  * Instructors
+  * Classes
+* Application program examples:
+  * Add new students, instructors, and courses
+  * Register students for courses, and generate class rosters
+  * Assign grades to students, compute grade point averages (GPA) and generate transcripts
+
+### View of Data
+
+* A database system is a collection of interrelated data and a set of programs that allow users to access and modify these data.
+* A major purpose of a database system is to provide users with an abstract view of the data.
+  * Data models
+    * A collection of conceptual tools for describing data, data relationships, data semantics, and consistency constraints.
+  * Data abstraction
+    * Hide the complexity of data structures to represent data in the database from users through several levels of data abstraction.
+
+### Data Models
+
+* A collection of tools for describing
+  * Data
+  * Data relationships
+  * Data semantics
+  * Data constraints
+* Relational model
+* Entity-Relationship data model (mainly for database design)
+* Object-based data models (Object-oriented and Object-relational)
+* Semi-structured data model (XML)
+* Other older models:
+  * Network model
+  * Hierarchical model
+
+### &#x20;Relational Model
+
+* All the data is stored in various tables.
+* Example of tabular data in the relational model
+
+
 
 ### Centralized databases
+
+
 
 *
   *

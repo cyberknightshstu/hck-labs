@@ -1,7 +1,6 @@
 # Table of contents
 
 * [About](README.md)
-  * [all](about/all.md)
   * [Introduction](about/introduction.md)
   * [class\_1\_script](about/class_1_script.md)
   * [class\_2](about/class_2.md)
@@ -17,6 +16,7 @@
   * [class\_14 (1)](about/class_14-1.md)
   * [class\_21](about/class_21.md)
   * [clss\_3\_quees](about/clss_3_quees.md)
+  * [all](about/all.md)
   * [practice\_class\_1](about/practice_class_1.md)
   * [practice\_class\_3](about/practice_class_3.md)
   * [question](about/question.md)
