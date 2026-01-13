@@ -26,14 +26,75 @@
   * Translating these requirements into a conceptual schema of the database.
   * A fully developed conceptual schema indicates the functional requirements of the enterprise.
     * Describe the kinds of operations (or transactions) that will be performed on the data.
+* Final Phase -- Moving from an abstract data model to the implementation of the database
+  * Logical Design – Deciding on the database schema.
+    * Database design requires that we find a “good” collection of relation schemas.
+    * Business decision – What attributes should we record in the database?
+    * Computer Science decision – What relation schemas should we have and how should the attributes be distributed among the various relation schemas?
+  * Physical Design – Deciding on the physical layout of the database
+
+
+
+### Design Alternatives
+
+* In designing a database schema, we must ensure that we avoid two major pitfalls:
+  * Redundancy: a bad design may result in repeat information.\
+    Redundant representation of information may lead to data inconsistency among the various copies of information
+  * Incompleteness: a bad design may make certain aspects of the enterprise difficult or impossible to model.
+* Avoiding bad designs is not enough. There may be a large number of good designs from which we must choose.
+
+
+
+### &#x20;Design Approaches
+
+* Entity Relationship Model (covered in this chapter)
+  * Models an enterprise as a collection of entities and relationships
+    * Entity: a “thing” or “object” in the enterprise that is distinguishable from other objects
+      * Described by a set of attributes
+    * Relationship: an association among several entities
+  * Represented diagrammatically by an entity-relationship diagram:
+* Normalization Theory (Chapter 7)
+  * Formalize what designs are bad, and test for them
+
+
+
+## Outline of the ER Model
+
+### ER model -- Database Modeling
+
+* The ER data mode was developed to facilitate database design by allowing specification of an enterprise schema that represents the overall logical structure of a database.
+* The ER data model employs three basic concepts:
+  * entity sets,
+  * relationship sets,
+  * attributes.
+* The ER model also has an associated diagrammatic representation, the ER diagram, which can express the overall logical structure of a database graphically.
+
+
+
+### &#x20;Entity Sets
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### Entity Sets -- instructor and student
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Representing Entity sets in ER Diagram
+
+* Entity sets can be represented graphically as follows:
+  * Rectangles represent entity sets.
+  * Attributes listed inside entity rectangle
+  * Underline indicates primary key attributes
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 
 
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-
-
+### Relationship Sets
 
 
 
