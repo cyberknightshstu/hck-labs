@@ -106,11 +106,37 @@ In the early days, database applications were built directly on top of file syst
 * All the data is stored in various tables.
 * Example of tabular data in the relational model
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;A Sample Relational Database
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Levels of Abstraction
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### View of Data
+
+An architecture for a database system
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Instances and Schemas
+
+* &#x20;Similar to types and variables in programming languages
+* Logical Schema – the overall logical structure of the database
+  * Example: The database consists of information about a set of customers and accounts in a bank and the relationship between them
+    * Analogous to type information of a variable in a program
+* Physical schema – the overall physical structure of the database
+* Instance – the actual content of the database at a particular point in time
+  * Analogous to the value of a variable
+
+### Physical Data Independence
+
+* Physical Data Independence – the ability to modify the physical schema without changing the logical schema
+  * Applications depend on the logical schema
+  * In general, the interfaces between the various levels and components should be well defined so that changes in some parts do not seriously influence others.
 
 ### Centralized databases
 
