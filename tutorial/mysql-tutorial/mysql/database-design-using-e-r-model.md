@@ -1,9 +1,9 @@
 # Database Design Using E-R Model
 
-* [ ] ![](<../.gitbook/assets/image (8).png>)Overview of the Design Process
-* [ ] The Entity-Relationship Model
-* [ ] Complex Attributes
-* [ ] Mapping Cardinalities
+* [x] Overview of the Design Process
+* [x] The Entity-Relationship Model
+* [x] Complex Attributes
+* [x] Mapping Cardinalities
 * [ ] Primary Key
 * [ ] Removing Redundant Attributes in Entity Sets
 * [ ] Reducing ER Diagrams to Relational Schemas
@@ -225,5 +225,41 @@ elements in the other set
 
 
 
+### &#x20;
 
+### Summary of Symbols Used in E-R Notation
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Alternative ER Notations
+
+* Chen, IDE1FX, …
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+### UML
+
+* UML: Unified Modeling Language
+* UML has many components to graphically model different aspects of an entire software system
+* UML Class Diagrams correspond to E-R Diagram, but several differences.
 
