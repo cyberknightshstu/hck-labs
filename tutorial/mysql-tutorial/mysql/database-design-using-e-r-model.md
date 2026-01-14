@@ -1,6 +1,6 @@
 # Database Design Using E-R Model
 
-* [ ] Overview of the Design Process
+* [ ] ![](<../.gitbook/assets/image (8).png>)Overview of the Design Process
 * [ ] The Entity-Relationship Model
 * [ ] Complex Attributes
 * [ ] Mapping Cardinalities
@@ -73,11 +73,11 @@
 
 ### &#x20;Entity Sets
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### Entity Sets -- instructor and student
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Representing Entity sets in ER Diagram
 
@@ -86,7 +86,7 @@
   * Attributes listed inside entity rectangle
   * Underline indicates primary key attributes
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -94,33 +94,136 @@
 
 ### Relationship Sets
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Example: we define the relationship set advisor to denote the associations between students and the instructors who act as their advisors.
 * Pictorially, we draw a line between related entities.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;Representing Relationship Sets via ER Diagrams
 
 * Diamonds represent relationship sets.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 * An attribute can also be associated with a relationship set.
 * For instance, the advisor relationship set between entity sets instructor and student may have the attribute date which tracks when the student started being associated with the advisor
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Relationship Sets with Attributes
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Roles
 
 * Entity sets of a relationship need not be distinct&#x20;
   * Each occurrence of an entity set plays a “role” in the relationship&#x20;
 * The labels “course\_id” and “prereq\_id” are called roles.
+
+
+
+### &#x20;Degree of a Relationship Set
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### &#x20;Non-binary Relationship Sets
+
+* Most relationship sets are binary
+* There are occasions when it is more convenient to represent relationships as non-binary.
+* E-R Diagram with a Ternary Relationship
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Complex Attributes
+
+* Attribute types:&#x20;
+  * Simple and composite attributes.&#x20;
+  * Single-valued and multivalued attributes&#x20;
+    * Example: multivalued attribute: phone\_numbers&#x20;
+  * Derived attributes&#x20;
+    * Can be computed from other attributes&#x20;
+    * Example: age, given date\_of\_birth&#x20;
+* Domain – the set of permitted values for each attribute
+
+### &#x20;Composite Attributes
+
+Composite attributes allow us to divided attributes into subparts (other attributes).
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Representing Complex Attributes in ER Diagram
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### &#x20;Mapping Cardinality Constraints
+
+* Express the number of entities to which another entity can be associated via a relationship set.
+* Most useful in describing binary relationship sets.
+* For a binary relationship set the mapping cardinality must be one of the following types:
+  * One to one
+  * One to many
+  * Many to one
+  * Many to many
+
+### &#x20;Mapping Cardinalities
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Note: Some elements in A and B may not be mapped to any\
+elements in the other set
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<div><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
+
+Note: Some elements in A and B may not be mapped to any\
+elements in the other set
+
+
+
+### Representing Cardinality Constraints in ER Diagram
+
+* We express cardinality constraints by drawing either a directed line (->), signifying “one,” or an undirected line (—), signifying “many,” between the relationship set and the entity set.
+* One-to-one relationship between an instructor and a student :
+  * A student is associated with at most one instructor via the relationship advisor
+  * A student is associated with at most one department via stud\_dept
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+### One-to-Many Relationship
+
+* one-to-many relationship between an instructor and a student
+  * an instructor is associated with several (including 0) students via advisor
+  * a student is associated with at most one instructor via advisor,
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+### Many-to-One Relationships
+
+* In a many-to-one relationship between an instructor and a student,
+  * an instructor is associated with at most one student via advisor,
+  * and a student is associated with several (including 0) instructors via advisor
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Many-to-Many Relationship
+
+* An instructor is associated with several (possibly 0) students via advisor
+* A student is associated with several (possibly 0) instructors via advisor
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
